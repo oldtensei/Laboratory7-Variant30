@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="be">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Купіце туры ў Беларусі па танных коштах">
+    <meta name="keywords" content="туры Беларусь, туры Парыж, туры Дубай, туры Рай, туры Дублін, турагенцтва, адпачынак ў Беларусі">
+    <title>Адпачывай па-беларуску</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="Laba7.html">
+                <img src="ico.png" alt="Logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="https://www.aviasales.by/?params=MSQ1" target="_blank">Купіць квіткі</a></li>
+                <li><a href="https://www.bsmp.by/patsientam/ekstrennaya-psikhologicheskaya-pomoshch-telefon-doveriya-v-belarusi" target="_blank">Псіхалагічная дапамога</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main"><main>
+        <section class="mainimg">
+            <img src="roof.jpg" alt="Mountains">
+        </section>
+        <section class="content">
+            <h3>Ваш дах паехаў, а вы яшчэ не? Вы па адрасе!</h3>
+            <p>На нашым сайце вы зможаце хутка знайсці непапулярныя туры, ды яшчэ і па адэкватных коштах! Зацікавілі - цісні кнопку👇</p>
+            <button class="btn"  id="button" onclick="func()">Больш інфармацыі...</button>
+            <div class="moreinfo"></div>
+        </section>
+        <h2 class="img-desc">Нашы туры:</h2>
+        <section class="pictures">
+            <a href="#"><img src="Paris.jpeg" alt="Paris" class="pic"></a>
+            <a href="#"><img src="Dubai.jpeg" alt="Dubai" class="pic"></a>
+            <a href="#"><img src="Rai.jpeg" alt="Rai" class="pic"></a>
+            <a href="#"><img src="Dublin.jpeg" alt="Dublin" class="pic"></a>
+        </section>
+        
+        <div class="ps">P.S Хацеў зрабіць для кожнай вёскі асобную старонку, але мне сказалі, што і адной хопіць<br>
+        P.P.S Працуюць толькі спасылкі у "шапцы" сайта</div>
+        
+    </main></div>
+    <footer>
+        Зваротная сувязь:
+        <div class="socials">
+            <a href="#"><img src="ICQ.png" alt="Аська"></a>
+            <a href="#"><img src="ok.png" alt="Аднакласнікі"></a>
+            <a href="#"><img src="Viber.png" alt="Вайбер"></a>
+        </div>
+    </footer>
+    
+    <script>
+        function func() {
+            let button = document.getElementById("button")
+            document.querySelector('.moreinfo').innerHTML='<h3>Мы удзячны Вам за тое, што Вы абралі нас!</h3><p>З намі вы зможаце праехаць усю Беларусь. Парыж, Дубай, Дублін і Рай - квіткі ў кожны тур вы можаце атрымаць націснуўшы на адпаведную фотакартку ніжэй:</p><p>*Мог напісаць больш, але, галоўнае, што скрыпт працуе</p>'; 
+            button.classList.add("hide")
+            }
+    </script>
+</body>
+</html>
